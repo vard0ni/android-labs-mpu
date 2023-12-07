@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NewApp</string>
+    <string name="button">Button</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="textview">Hello, world!</string>
+    <string name="button_3">Button 3</string>
+    <string name="button_4">Button 4</string>
+    <string name="welcome">LinearLayout example</string>
+    <string name="welcome_constraint">ConstraintLayout example</string>
+    <string name="button_1_const">Button 1</string>
+    <string name="button_2_const">Button 2</string>
+    <string name="textview_const">Hello, world!</string>
+    <string name="button_3_const">Button 3</string>
+    <string name="button_4_const">Button 4</string>
+</resources>

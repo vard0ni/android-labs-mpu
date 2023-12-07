@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lab4</string>
+    <string name="checkbox_label">CheckBox</string>
+    <string name="toggle_off_label">Toggle Off</string>
+    <string name="toggle_on_label">Toggle On</string>
+    <string name="radio1_label">Radio 1</string>
+    <string name="radio2_label">Radio 2</string>
+    <string name="image_button_label">Image Button</string>
+</resources>
