@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lab6</string>
+    <string name="popup_notification">Pop-up notification</string>
+    <string name="status_bar_notification">Status bar notification</string>
+    <string name="channel_name">Zakhar channel</string>
+    <string name="channel_description">Description of channel</string>
+    <string name="notification_title">New notification</string>
+    <string name="notification_text">Click on the notification to go to the application</string>
+    <string name="toast_text">Pop-up notification!</string>
+    <string name="text_for_toast_text">Enter text for pop-up notification</string>
+</resources>
