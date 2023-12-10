@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">lab7</string>
+    <string name="show_dialog_window">Show dialog window</string>
+    <string name="end_activity">End activity</string>
+    <string name="enter_text">Enter text</string>
+</resources>
