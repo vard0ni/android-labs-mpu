@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-    Button showDialogButton, finishActivityButton;
+    Button showDialogButton;
     EditText dialogEditText;
     AlertDialog dialog;
 
@@ -21,19 +21,10 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         showDialogButton = findViewById(R.id.show_dialog_button);
-        finishActivityButton = findViewById(R.id.finish_activity_button);
-
         showDialogButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 showCustomDialog();
-            }
-        });
-
-        finishActivityButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
             }
         });
     }
@@ -44,6 +35,8 @@ public class MainActivity extends Activity {
         builder.setView(dialogView);
 
         dialogEditText = dialogView.findViewById(R.id.dialog_edit_text);
+
+        builder.setTitle("Play with dialogs");
 
         builder.setPositiveButton("Show text", new DialogInterface.OnClickListener() {
             @Override
@@ -61,6 +54,13 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.dismiss();
+            }
+        });
+
+        builder.setNeutralButton("End activity", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                finish();
             }
         });
 
