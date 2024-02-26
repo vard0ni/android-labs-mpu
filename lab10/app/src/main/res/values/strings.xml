@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProgressBar and RatingBar</string>
+    <string name="progress_text">Progress: %1$d%%</string>
+    <string name="rating_label">Rating: %1$.1f</string>
+    <string name="button_start">Start</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_down">Down</string>
+    <string name="button_up">Up</string>
+</resources>
