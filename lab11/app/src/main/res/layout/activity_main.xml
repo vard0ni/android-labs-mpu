@@ -5,18 +5,26 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".SecondActivity">
+    tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/buttonOpenContacts"
+        android:id="@+id/bCallPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Open Contacts" />
+        android:text="Call Phone" />
 
     <Button
-        android:id="@+id/backButton"
+        android:id="@+id/bCallActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Back to main menu" />
+        android:text="Call second activity" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Events:"
+        android:textSize="18sp" />
 
 </LinearLayout>
